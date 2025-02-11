@@ -1,0 +1,234 @@
+/* Basic Styling - Customize this extensively! */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: green; /* Example background color */
+    color: #333; /* Example text color */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+        /* Basic Styling for improved link visibility */
+        a {
+            color: #007bff; /* Example: Blue color - customize as needed */
+            text-decoration: none; /* Remove underlines */
+            font-weight: bold; /* Make the text bold */
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+        }
+
+        a:hover {
+            color: #0056b3; /* Darker blue on hover */
+            text-decoration: underline; /* Add underline on hover (optional) */
+        }
+
+        .hire-me-button {
+            background-color: #007bff; /* Example: Blue background */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .hire-me-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style the social media icons */
+        .linkedin-icon {
+            color: #0077b5; /* LinkedIn blue */
+        }
+        .youtube-icon{
+            color: #FF0000; /* YouTube red */
+        }
+        .fa-github{
+            color: #333; /* Github dark grey */
+        }
+
+        /* Example styling for the navigation links */
+        nav a {
+            padding: 10px; /* Add some padding around links */
+            margin: 0 5px; /* Add some space between links */
+            color: #333; /* Darker text for better contrast */
+        }
+
+        nav a:hover {
+            color: #007bff; /* Highlight color on hover */
+        }
+   
+nav {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center; /* Center the navigation links */
+}
+nav a {
+    display: inline-block; /* Make links behave like blocks */
+    padding: 10px 20px; /* Add padding around links */
+    text-decoration: none; /* Remove underlines */
+    color: #333; /* Set link color */
+    margin: 0 10px; /* Add some space between links */
+}
+nav a:hover {
+    background-color: #ddd; /* Change background on hover */
+    color: #007bff; /* Example hover color */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.project {
+    margin-bottom: 20px; /* Space between projects */
+    border: 1px solid #ddd; /* Add a border */
+    padding: 15px; /* Add padding */
+}
+.project img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+/* ... (Your existing styles from the previous response) ... */
+
+/* Blinking Button Styles */
+.hire-me-button {
+    background-color: #007bff; /* Example color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    animation: blinker 1s linear infinite; /* Blinking animation */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}/* ... other styles */
+
+.about-image {
+    width: 200px; /* Set width */
+    height: 200px; /* Set height */
+    border-radius: 50%; /* Make it a circle */
+    object-fit: cover; /* Maintain aspect ratio and cover the circle */
+    float: left; /* Image on the left */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 768px) {
+    .about-image {
+        float: none; /* Image above the text on smaller screens */
+        margin: 0 auto 20px; /* Center and add margin below */
+        display: block; /* Make the image a block element */
+        width: 150px; /* Adjust size for smaller screens */
+        height: 150px;
+    }
+	.linkedin-icon {
+    color: blue; /* LinkedIn blue */
+}
+/* styles.css */
+/* ... (Existing styles) ... */
+
+#skills {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category {
+    display: inline-block; /* Arrange categories side by side */
+    width: 30%; /* Adjust width as needed */
+    vertical-align: top; /* Align categories to the top */
+    margin-bottom: 20px; /* Space between categories */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+}
+
+.skill-category h3 {
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.skill-category li {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments for skills section */
+@media (max-width: 768px) {
+    .skill-category {
+        width: 45%; /* Two categories per row */
+    }
+}
+
+@media (max-width: 500px) {
+    .skill-category {
+        width: 90%; /* One category per row */
+    }
+}
+
+/* ... (Rest of your styles) ... */
+.youtube-icon {
+    color: red; /* YouTube red */
+}
+}
+
+.project-image { /* Style for project images */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Responsive adjustments (optional) */
+@media (max-width: 768px) {
+    .about-image {
+        float: none; /* Image above the text on smaller screens */
+        margin: 0 auto 20px; /* Center and add margin below */
+        display: block; /* Make the image a block element */
+    }
+}
+    }
+}
+
+.hire-me-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0; /* Button disappears briefly */
+    }
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive Design - Example */
+@media (max-width: 768px) {
+    nav a {
+        display: block; /* Stack navigation links vertically */
+        margin: 10px 0; /* Adjust margins for vertical stacking */
+    }
+    .project {
+        text-align: center; /* Center project content on smaller screens */
+    }
+    .project img {
+        max-width: 90%; /* Make images slightly smaller */
+    }
+}
